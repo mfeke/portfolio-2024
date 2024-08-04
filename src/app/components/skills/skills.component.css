@@ -1,0 +1,39 @@
+.bg-dark{
+    background-color: rgb(33, 33, 33) !important;
+}
+.w3{
+    width: 392px;
+}
+
+.f{
+    color: #a5a2a2;
+
+}
+.mx{
+    margin-left: 20px;
+}
+.h-10{
+    height: 550px;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+}
+
+.bg-dark{
+    background-color: rgb(33, 33, 33) !important;
+}
+.w-10{
+
+    width: 720px;
+}
+.cur{
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+.text-o:hover{
+    color: rgb(165, 134, 76) !important;
+    cursor: pointer;
+}
