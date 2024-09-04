@@ -11,6 +11,7 @@ const routes: Routes = [
 {path:"skills",component:SkillsComponent},
 {path:"home", component: HomeComponent},
 {path:"about", component:AboutComponent},
+{ path: '',   redirectTo: '/home', pathMatch: 'full' }, // redirect to `first-component`
 {path:"projects", component:ProjectsComponent}
 
 

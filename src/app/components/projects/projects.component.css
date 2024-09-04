@@ -56,7 +56,7 @@
     display: inline-block;
   }
   
-  p {
+  p , a{
     /* border-right: solid 5px rgba(255, 255, 255, .75); */
     overflow: hidden;
     font-family: 'Source Code Pro', monospace;
