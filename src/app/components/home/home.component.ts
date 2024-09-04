@@ -26,7 +26,7 @@ export class HomeComponent {
 
       this.fullUrl = this.router.url;
       if(this.fullUrl === "/home"){
-        console.log(this.fullUrl); // Output the full URL
+        // console.log(this.fullUrl); // Output the full URL
 
       }
     });

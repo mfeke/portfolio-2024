@@ -22,3 +22,16 @@
     color: rgb(165, 134, 76) !important;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 425px) {
+
+    /*Small smartphones [325px -> 425px]*/
+    .text-o {
+      font-size: 13px;
+    }
+  
+    .d-none {
+      display: block!important;
+    }
+
+  }

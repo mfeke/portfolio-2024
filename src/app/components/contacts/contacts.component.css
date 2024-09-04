@@ -79,3 +79,44 @@ height: 450px;
     color: rgb(165, 134, 76) !important;
     cursor: pointer;
 }
+p {
+    /* border-right: solid 5px rgba(255, 255, 255, .75); */
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+
+  }
+@media only screen and (max-width: 425px) {
+
+    /*Small smartphones [325px -> 425px]*/
+    .text-o {
+        font-size: 13px;
+    }
+
+    .d {
+        display: none !important;
+    }
+
+    .d-b {
+        display: block !important;
+    }
+
+    .d-none {
+        display: flex !important;
+    }
+
+
+
+    .line-number {
+        width: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 19px;
+
+    }
+
+}

@@ -15,7 +15,7 @@ export class AboutComponent {
   ngOnInit() {
     this.router.events.subscribe(() => {
       this.fullUrl = this.router.url;
-      console.log(this.fullUrl); // Output the full URL
+      // console.log(this.fullUrl); // Output the full URL
     });
   }
 

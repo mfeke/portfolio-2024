@@ -101,9 +101,11 @@ p {
     background-position: center;
 
 }
-.z{
+
+.z {
     z-index: 2;
 }
+
 .bg {
     background-color: rgb(0, 0, 0, 0.6);
 }
@@ -113,27 +115,75 @@ p {
     left: -440px;
 } */
 
-.icon{
+.icon {
     width: 10px;
     height: 10px;
 }
-.w3{
-    width:50px;
+
+.w3 {
+    width: 50px;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: rgb(33, 33, 33) !important;
 }
-.w-10{
+
+.w-10 {
 
     width: 720px;
 }
-.cur{
+
+.cur {
     width: 200px;
     cursor: pointer;
     text-align: center;
     padding: 10px;
 }
-.text-o:hover{
+
+.text-o:hover {
     color: rgb(165, 134, 76) !important;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+
+    /*Small smartphones [325px -> 425px]*/
+    .text-o {
+        font-size: 13px;
+    }
+
+    .d {
+        display: none !important;
+    }
+
+    .d-b {
+        display: block !important;
+    }
+
+    .d-none {
+        display: flex !important;
+    }
+
+    h1 {
+        font-size: 55px;
+
+    }
+
+    .line-number {
+        width: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 19px;
+
+    }
+
+    .curved-image {
+        width: 280px;
+        height: 290px;
+    }
 }
